@@ -1,6 +1,6 @@
 {
-  "title": "Demo Scenario",
-  "description": "A Sample Scenario",
+  "title": "kafka Scenario",
+  "description": "A simple kafka Scenario",
   "difficulty": "Beginner",
   "time": "2 minutes",
   "details": {

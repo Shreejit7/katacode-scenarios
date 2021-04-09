@@ -1,1 +1,2 @@
-Welcome to your first Katacoda Scenario!
+Welcome to Kafka Scenario!
+In this scenario, we will learn about the basic commands of kafka and also try out few commands and will see how we can connect to kafka clustus and send and recieve the messages.
