@@ -1,7 +1,15 @@
-This is your first step.
+In this Step we will download the kafka.
 
 ## Task
 
-This is an _example_ of creating a scenario and running a **command**
+Let's first download the kafka executing the below **command**
 
-`echo 'Hello World'`{{execute}}
+`wget https://archive.apache.org/dist/kafka/2.4.0/kafka_2.11-2.4.0.tgz`{{execute}}
+
+Extract the file 
+
+`tar -xzf kafka_2.11-2.4.0.tgz`{{execute}}
+
+cd into the extracted kafka folder
+
+`cd kafka_2.11-2.4.0/`{{execute}}
