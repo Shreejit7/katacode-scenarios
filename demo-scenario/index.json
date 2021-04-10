@@ -4,10 +4,20 @@
   "difficulty": "Beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Install Kafka",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Install Kafka",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
