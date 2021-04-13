@@ -4,11 +4,11 @@ Before Starting the Kafka Server we have to start the Zookeeper which keeps trac
 
 Run the below **command** to start the Zookeeper server
 
-`bin/zookeeper-server-start.sh config/zookeeper.properties `{{execute}}
+`bin/zookeeper-server-start.sh config/zookeeper.properties & `{{execute}}
 
 Once the Zookeeper is up and running we can start the kafka server now. Each kafka server is nothing but the brokers. 
 So to have multiple brokers in our kafka cluster we will need to start multiple servers by below **command**
 
-`bin/kafka-server-start.sh config/server.properties `{{execute}}
+`bin/kafka-server-start.sh config/server.properties & `{{execute}}
 
 each broker will have it's own server.properties file
