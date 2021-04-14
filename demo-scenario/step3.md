@@ -11,3 +11,8 @@ In the above command we connect to the bootstrap-server (i.e. broker) to create 
 To confirm that the topic is created in the broker we can use the below **command**
 
 `bin/kafka-topics.sh --list --bootstrap-server localhost:9092 `{{execute}}
+
+To view the details of any kakfa topic we can use the below **command** to describe the topic
+
+`bin/kafka-topics.sh --bootstrap-server localhost:9092 --topic first_topic --describe `{{execute}}
+
