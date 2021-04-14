@@ -2,11 +2,11 @@
   "title": "kafka Scenario",
   "description": "A simple kafka Scenario",
   "difficulty": "Beginner",
-  "time": "2 minutes",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Install Kafka",
+        "title": "Step 1 - Setting up Environment and Installing Kafka",
         "text": "step1.md"
       },
       {

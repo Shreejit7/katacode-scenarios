@@ -2,12 +2,12 @@ In this Step we will Set up the Environment and download the kafka.
 
 ## Task
 
-Let's first set up the java by executing below commands** one by one
+Let's first set up the java by executing below **commands** one by one
 `sudo add-apt-repository ppa:openjdk-r/ppa`{{execute}}
 `sudo apt-get update`{{execute}}
 `sudo apt-get install openjdk-8-jre`{{execute}}
 
-Once it is installed you can verify it by the below command**
+Once it is installed you can verify it by the below **command**
 
 `java -version`{{execute}}
 
